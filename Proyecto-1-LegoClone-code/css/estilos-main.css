@@ -1,0 +1,108 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+
+.header--princpal {
+  width: 100%;
+  min-width: 320px;
+  height: 65px;
+  padding: 7px 8px 7px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAC80A;
+}
+.header--princpal .header__icon-sandwich {
+  width: 35px;
+  height: 30px;
+  background-image: url(/Proyecto-1-LegoClone-code/assets/icons/menu-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.7;
+  margin-right: 50px;
+}
+.header--princpal .header__logo {
+  width: 55px;
+  height: 50px;
+  background-image: url(/Proyecto-1-LegoClone-code/assets/icons/logo-lego_105x.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.header--princpal .header__section {
+  width: 90px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 5px;
+}
+.header--princpal .header__section .icon-one {
+  width: 20px;
+  height: 20px;
+  background-image: url(/Proyecto-1-LegoClone-code/assets/icons/lupa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.7;
+}
+.header--princpal .header__section .icon-two {
+  width: 20px;
+  height: 20px;
+  background-image: url(/Proyecto-1-LegoClone-code/assets/icons/user.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.7;
+}
+.header--princpal .header__section .icon-three {
+  width: 20px;
+  height: 20px;
+  background-image: url(/Proyecto-1-LegoClone-code/assets/icons/cart.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.7;
+}
+.header--princpal .header__section p {
+  position: absolute;
+  background-color: #116DFF;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: -5px;
+  top: -2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

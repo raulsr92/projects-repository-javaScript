@@ -1,14 +1,38 @@
-// Paleta de colores
+// Paleta de colores (variables)
 
 $color-one: #006CB6;
-$color-two: #2E8EBD;
-$color-three: #FAC80A;
-$color-four: #E3E3E3;
-$color-five: #D1D0D0;
-$color-six:#222222;
-$color-seven: #FFFFFF;
+$color-two:#116DFF;
+$color-three: #2E8EBD;
+$color-four: #FAC80A;
+$color-five: #E3E3E3;
+$color-six: #D1D0D0;
+$color-seven:#222222;
+$color-eight: #FFFFFF;
+
+// Fuentes de texto (variables)
+
+$Fuente1:'Rubik', sans-serif;
 
 
+// Tamaños de fuente (variables)
+
+$size1: 12px;
+$size2: 14px;
+$size3: 15.5px;
+$size4: 16px;
+$size5: 20px;
+$size6: 24px;
+
+// Estilos globales 
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: $Fuente1;
+}
 
 
 
