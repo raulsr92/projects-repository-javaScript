@@ -106,3 +106,41 @@ html {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.footer {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+
+.blue--section {
+  width: 100%;
+  min-width: 320px;
+  background-color: #2E8EBD;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.blue--section__icon1 {
+  background-image: url(/project1-lego/icons/ser.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-top: 10px;
+}
+.blue--section__text p {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.blue--section__text a {
+  color: #FFFFFF;
+  font-size: 14px;
+}
