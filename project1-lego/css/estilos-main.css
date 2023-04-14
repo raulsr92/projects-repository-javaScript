@@ -28,7 +28,7 @@ html {
 .header--princpal .header__icon-sandwich {
   width: 35px;
   height: 30px;
-  background-image: url(/icons/menu.png);
+  background-image: url(./icons/menu.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -38,7 +38,7 @@ html {
 .header--princpal .header__logo {
   width: 55px;
   height: 50px;
-  background-image: url(/icons/logo.jpeg);
+  background-image: url(./icons/logo.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -61,7 +61,7 @@ html {
 .header--princpal .header__section .icon-one {
   width: 20px;
   height: 20px;
-  background-image: url(/icons/lupa.png);
+  background-image: url(./icons/lupa.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -70,7 +70,7 @@ html {
 .header--princpal .header__section .icon-two {
   width: 20px;
   height: 20px;
-  background-image: url(/icons/user.png);
+  background-image: url(./icons/user.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -79,7 +79,7 @@ html {
 .header--princpal .header__section .icon-three {
   width: 20px;
   height: 20px;
-  background-image: url(/icons/cart.png);
+  background-image: url(./icons/cart.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -125,7 +125,7 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .blue--section__icon1 {
-  background-image: url(/project1-lego/icons/ser.png);
+  background-image: url(./icons/ser.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
