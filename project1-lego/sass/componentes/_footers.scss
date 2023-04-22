@@ -83,7 +83,7 @@
         }
         h2{
             font-size: $size3;
-            font-weight: 400;
+            font-weight: 500;
             text-transform: uppercase;
             margin-top: 15px;
             margin-bottom: 35px;
@@ -97,6 +97,9 @@
             margin: 0 auto;
             margin-bottom: 20px;
             column-gap: 15px;
+        }
+        .insta{
+            margin-bottom: 40px;
         }
 
         .fb a:nth-child(2), .insta a:nth-child(2){
@@ -114,9 +117,30 @@
             height: 100%;
             font-size: 40px;
         }
+    }
+    &__info, &__legal{
+        padding-left: 15px;
+        margin-bottom: 55px;
+        h2{
+            font-size: $size4;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 35px;
+        }
+        .nav--info, .nav--legal{
+            list-style: none;
+            li{
+                margin-bottom: 5px;
+                a{
+                    color: $color-ten;
+                    text-decoration: none;
+                    line-height: 30px;
+                }
+            }
 
-        
+
+        }
+    }
 
 
-
-}}
+}

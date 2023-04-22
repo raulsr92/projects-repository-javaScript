@@ -197,7 +197,7 @@ html {
 }
 .grey--section__social h2 {
   font-size: 15.5px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 35px;
@@ -225,6 +225,9 @@ html {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
+.grey--section__social .insta {
+  margin-bottom: 40px;
+}
 .grey--section__social .fb a:nth-child(2), .grey--section__social .insta a:nth-child(2) {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -244,6 +247,27 @@ html {
   width: 100%;
   height: 100%;
   font-size: 40px;
+}
+.grey--section__info, .grey--section__legal {
+  padding-left: 15px;
+  margin-bottom: 55px;
+}
+.grey--section__info h2, .grey--section__legal h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.grey--section__info .nav--info, .grey--section__info .nav--legal, .grey--section__legal .nav--info, .grey--section__legal .nav--legal {
+  list-style: none;
+}
+.grey--section__info .nav--info li, .grey--section__info .nav--legal li, .grey--section__legal .nav--info li, .grey--section__legal .nav--legal li {
+  margin-bottom: 5px;
+}
+.grey--section__info .nav--info li a, .grey--section__info .nav--legal li a, .grey--section__legal .nav--info li a, .grey--section__legal .nav--legal li a {
+  color: #575252;
+  text-decoration: none;
+  line-height: 30px;
 }
 
 /*
