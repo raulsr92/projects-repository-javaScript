@@ -135,11 +135,18 @@
                     color: $color-ten;
                     text-decoration: none;
                     line-height: 30px;
+                    font-weight: 200;
                 }
             }
-
-
         }
+    }
+    &__rigths{
+        padding: 0px 10px 20px 10px;
+        font-size: $size1;
+        text-align: center;
+        color: $color-ten;
+        font-weight: 200;
+        line-height: 18px;
     }
 
 
